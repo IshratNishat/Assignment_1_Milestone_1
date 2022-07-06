@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+p, a, input{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 35px;}
+#top-banner{
+    background: url(images/donation3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+#top-banner:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(168, 77, 77, 0),rgb(0, 0, 0));
+}
+.top-banner-text{
+    color: white;
+    text-align: center;
+    position: absolute;
+    width: 40%;
+}
+a{
+    background-color: rgb(5, 166, 199);
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 600;
+    border-radius: 3px;
+}
