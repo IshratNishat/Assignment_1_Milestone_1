@@ -8,6 +8,11 @@ h1{
     font-size: 50px;
     margin-bottom: 20px;
 }
+h2 {
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
 p, a, input{
     font-family: 'Roboto', sans-serif;
     margin-bottom: 35px;}
@@ -38,10 +43,109 @@ p, a, input{
     width: 40%;
 }
 a{
-    background-color: rgb(5, 166, 199);
+    background-color: hsl(190, 95%, 40%);
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 15px 30px;
     color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/* donate money part */
+#donate-money{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.donate-part{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+.money{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.money h2{
+    margin-right: 25px;
+    margin-left: 25px;
+}
+.colored{
+    background-color: rgb(243, 243, 243);
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(69, 69, 69);
+}
+.colored-tk{
+    background-color: rgb(170, 255, 255);
+    border: 3px solid rgb(1, 167, 167);
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(1, 167, 167);
+}
+
+.money-form{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+    border-bottom: 3px solid rgb(227, 227, 227);
+}
+.money-form input{
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
     font-weight: 600;
-    border-radius: 3px;
+    color: rgb(227, 227, 227);
+}
+.input-btn{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+}
+.input-btn input{
+    background-color: rgb(1, 167, 167);
+    padding: 15px 30px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+#donate-plan{
+    margin-bottom: 100px;
+}
+.donate-plan-box{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+}
+.donate-box{
+    background-color: rgb(212, 255, 241);
+    padding: 20px 15px;
+    margin: 0 20px;
+    border-radius: 10px;
+}
+.donate-box2 {
+    background-color: rgb(255, 217, 222);
+    padding: 20px 15px;
+    margin: 0 20px;
+    border-radius: 10px;
+}
+.donate-box3 {
+    background-color: rgb(203, 255, 187);
+    padding: 20px 15px;
+    margin: 0 20px;
+    border-radius: 10px;
 }
