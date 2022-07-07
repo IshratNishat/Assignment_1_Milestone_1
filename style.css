@@ -15,7 +15,7 @@ h2 {
 }
 p, a, input{
     font-family: 'Roboto', sans-serif;
-    margin-bottom: 35px;}
+    margin-bottom: 25px;}
 #top-banner{
     background: url(images/donation3.jpg);
     background-repeat: no-repeat;
@@ -51,6 +51,7 @@ a{
     border-radius: 5px;
     font-size: 18px;
 }
+/* top banner part ends*/
 
 /* donate money part */
 #donate-money{
@@ -72,6 +73,29 @@ a{
     margin-right: 25px;
     margin-left: 25px;
 }
+/* donate money part ends*/
+
+/* gallery part starts*/
+.gallery{
+    margin-bottom: 50px;
+}
+.gallery-part1{
+    display: flex;
+    justify-content: center;
+}
+.gallery-part1 img{
+    width: 300px;
+    margin: 10px 10px;
+    border-radius: 10px;
+}
+hr{
+    width: 30%;
+    height: 1px;
+    background-color: gray;
+    margin-bottom: 40px;
+}
+
+/* colored money box */
 .colored{
     background-color: rgb(243, 243, 243);
     width: 120px;
@@ -179,16 +203,16 @@ a{
     border: none;
     outline: none;
     padding-left: 10px;
-    width: 250px;
-    background-color: rgb(242, 242, 242);
+    width: 300px;
+    background-color: rgb(255, 255, 255);
     color: rgb(69, 69, 69);
     font-weight: 700;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
-
+/* footer part */
 footer{
-    background-color: rgb(18, 0, 32);
+    background-color: rgb(0, 0, 0);
     height: 200px;
     display: flex;
     justify-content: center;
