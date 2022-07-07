@@ -75,26 +75,6 @@ a{
 }
 /* donate money part ends*/
 
-/* gallery part starts*/
-.gallery{
-    margin-bottom: 50px;
-}
-.gallery-part1{
-    display: flex;
-    justify-content: center;
-}
-.gallery-part1 img{
-    width: 300px;
-    margin: 10px 10px;
-    border-radius: 10px;
-}
-hr{
-    width: 30%;
-    height: 1px;
-    background-color: gray;
-    margin-bottom: 40px;
-}
-
 /* colored money box */
 .colored{
     background-color: rgb(243, 243, 243);
@@ -173,6 +153,32 @@ hr{
     margin: 0 20px;
     border-radius: 10px;
 }
+
+/* gallery part starts*/
+.gallery {
+    margin-bottom: 50px;
+}
+
+.gallery-part1 {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery-part1 img {
+    width: 300px;
+    margin: 10px 10px;
+    border-radius: 10px;
+}
+
+hr {
+    width: 30%;
+    height: 1px;
+    background-color: gray;
+    margin-bottom: 40px;
+}
+
+/* gallery ends*/
+
 .contact-form{
     margin-bottom: 100px;
 }
