@@ -149,3 +149,58 @@ a{
     margin: 0 20px;
     border-radius: 10px;
 }
+.contact-form{
+    margin-bottom: 100px;
+}
+.contact-box{
+    margin: 0 auto;
+    width: 60%;
+    background-color: rgb(212, 255, 241);    display: flex;
+    justify-content: center;
+    padding: 70px 0;
+}
+.contact-box input{
+    margin-bottom: 0px;
+}
+
+.input-button{
+    background-color: hsl(190, 95%, 40%);
+    text-decoration: none;
+    padding: 15px 30px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#email-box{
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    width: 250px;
+    background-color: rgb(242, 242, 242);
+    color: rgb(69, 69, 69);
+    font-weight: 700;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+footer{
+    background-color: rgb(18, 0, 32);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-part{
+    text-align: center;
+}
+footer h2{
+    color: hsl(190, 95%, 40%);
+    font-style: italic;
+}
+footer p{
+    color: white;
+}
